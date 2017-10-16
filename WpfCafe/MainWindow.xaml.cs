@@ -38,7 +38,11 @@ namespace WpfCafe
             spPints.Children.Add(img);
         }
 
-
-
+        private void btnPintPlease_Click(object sender, RoutedEventArgs e)
+        {
+            lblCountPints.Content = int.Parse(lblCountPints.Content.ToString()) + 1;
+            AddPintImage();
+            
+        }
     }
 }

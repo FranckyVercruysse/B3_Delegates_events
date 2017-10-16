@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="btnPintPlease" Content="Pint, please!" HorizontalAlignment="Left" Margin="21,32,0,0" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="btnPintPlease" Content="Pint, please!" HorizontalAlignment="Left" Margin="21,32,0,0" VerticalAlignment="Top" Width="75" Click="btnPintPlease_Click" />
         <Label x:Name="lblCountPints" Content="0" HorizontalAlignment="Left" Margin="74,173,0,0" VerticalAlignment="Top" Width="428" HorizontalContentAlignment="Right"/>
         <ScrollViewer HorizontalAlignment="Left" Height="77" Margin="21,80,0,0" VerticalAlignment="Top" Width="481" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto">
             <StackPanel x:Name="spPints" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal"/>

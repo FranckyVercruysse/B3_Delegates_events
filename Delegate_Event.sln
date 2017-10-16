@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsUnitConversion", "ConsUnitConversion\ConsUnitConversion.csproj", "{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCafe", "LibCafe\LibCafe.csproj", "{2EBF9567-A6B7-41E5-8276-D8C7E3789640}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCafe", "WpfCafe\WpfCafe.csproj", "{3C37CFE4-28F1-40E3-B900-1BF503951B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLightSwitch", "ConsoleLightSwitch\ConsoleLightSwitch.csproj", "{AD053B1E-6684-488C-B2AA-77755365B367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{3C37CFE4-28F1-40E3-B900-1BF503951B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C37CFE4-28F1-40E3-B900-1BF503951B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C37CFE4-28F1-40E3-B900-1BF503951B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD053B1E-6684-488C-B2AA-77755365B367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD053B1E-6684-488C-B2AA-77755365B367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD053B1E-6684-488C-B2AA-77755365B367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD053B1E-6684-488C-B2AA-77755365B367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB12763B-FD15-4A8B-828B-84B28834E6C8}
 	EndGlobalSection
 EndGlobal

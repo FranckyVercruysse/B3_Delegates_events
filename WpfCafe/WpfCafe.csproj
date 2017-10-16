@@ -96,7 +96,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
+    <ProjectReference Include="..\LibCafe\LibCafe.csproj">
+      <Project>{2ebf9567-a6b7-41e5-8276-d8c7e3789640}</Project>
+      <Name>LibCafe</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\pint.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
