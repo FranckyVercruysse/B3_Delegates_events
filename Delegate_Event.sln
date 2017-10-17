@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsUnitConversion", "ConsUnitConversion\ConsUnitConversion.csproj", "{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCafe", "ConsoleCafe\ConsoleCafe.csproj", "{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCafe", "LibCafe\LibCafe.csproj", "{2EBF9567-A6B7-41E5-8276-D8C7E3789640}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
